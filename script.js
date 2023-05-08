@@ -66,14 +66,11 @@
 
 // // //function
 
-// // // function addTwoNumbers(num1, num2) {
-// // //   //   let a = 2;
-// // //   //   let b = 3;
-
-// // //   //   console.log(a + b);
-
-// // //   console.log(num1 + num2);
-// // // }
+// function addTwoNumbers(a, b) {
+//   console.log(a + b);
+// }
+// addTwoNumbers(9, 9);
+// addTwoNumbers();
 
 // // // addTwoNumbers(12, 5);
 
@@ -82,8 +79,8 @@
 // // // // console.log(Math.round(5.5));
 // // // console.log(Math.pow(2, 3));
 // // // console.log(Math.sqrt(64));
-// // // console.log(Math.ceil(4.3));
-// // // console.log(Math.floor(7.9));
+console.log(Math.ceil(4.3));
+console.log(Math.floor(7.9));
 
 // // // console.log(Math.min(1, 2, 3, 9, 10));
 // // // console.log(Math.max(2, 3));
@@ -120,42 +117,42 @@
 
 // // // Error Handling
 
-// // // try {
-// // //   const x = 5;
+// try {
+//   const x = MediaKeys;
 
-// // //   console.log(x);
-// // // } catch (error) {
-// // //   console.log(error.message);
-// // // } finally {
-// // //   console.log("I am very happy");
-// // // }
+//   console.log(x);
+// } catch (error) {
+//   console.log(error.message);
+// } finally {
+//   console.log("I am very happy");
+// }
 
 // // // JS- Scheduling
 
 // // // Set setTimeout
 
-// // // function hello() {
-// // //   console.log("kirna ");
-// // // }
+// function hello() {
+//   console.log("kiran ");
+// }
 
-// // // setTimeout(hello, 5000);
+// setTimeout(hello, 1);
 
-// // // function hello() {
-// // //   console.log("kirna ");
-// // // }
+// function hello() {
+//   console.log("kirna ");
+// }
 
-// // // let output = setTimeout
+// let output = setTimeout;
 
-// // // setTimeout(hello, 5000);
+// setTimeout(hello, 5000);
 
-// // // let i = 0;
-// // // const interval = setInterval(() => {
-// // //   console.log(" Insidd ", i++);
+// let i = 0;
+// const interval = setInterval(() => {
+//   console.log(" Insidd ", i++);
 
-// // //   if (i == 10) {
-// // //     clearInterval(interval);
-// // // //   }
-// // // }, 1000);
+//   if (i == 10) {
+//     clearInterval(interval);
+//   }
+// }, 90000);
 // // // Arrow function
 
 // // // const addTwoNumbers = (num1, num2) => num1 + num2;
@@ -195,12 +192,12 @@
 
 // // // console.log(typeof num);
 
-// // // // String manupulation
+// String manupulation
 
-// // // const str = " hi Ia m kiran, and i live in sydney, and  i will love you";
+const str = " hi Ia m kiran, and i live in sydney, and  i will love you";
 
-// // // const val = str.length;
-
+// const val = str.length;
+// console.log(val);
 // // // console.log(val);
 // // // const val = str[50];
 // // // console.log(val);
@@ -216,10 +213,12 @@
 // // // const val = str.includes("kiran");
 // // // const val = str.charAt(15);
 // // // // const val = str.charCodeAt(15);
-// // // const val = str.split(","); // convert string into array
-// // // const val = str.search("kiran");
-// // // const val = str.trim("");
-// // // const val = str.trim("");
+// const val = str.split(""); // convert string into array
+// console.log(val);
+// const val = str.search("kiran");
+// const val = str.trim("");
+// const val = str.trim("kiran");
+// console.log(val);
 // // // console.log(val.length);
 // // // console.log(str.length);
 
@@ -232,7 +231,7 @@
 
 // // // =====Array
 
-// // // const fruits = ["apple", "banana", "orange", "kiwi"];
+const fruits = ["apple", "banana", "orange", "kiwi"];
 // // // const item = fruits.pop;
 // // // console.log(val);
 // // // addd item in the arrrayd
@@ -245,20 +244,22 @@
 
 // // // console.log(val);
 
-// // // const data = fruits.slice(1, 4);
+// const data1 = fruits.slice(1, 4);
+// console.log(data1);
 
 // // // Splice manupulliate the aoringal array as well
 
-// // // const data = fruits.splice(1, 2);
-// // // fruits.sort();
-// // // fruits.reverse();
-// // // // console.log(data);
+const data = fruits.slice(1, 2);
+// fruits.sort();
+// fruits.reverse();
+console.log(data);
+console.log(fruits);
 
 // // // console.log(fruits);
 // // // console.log(fruits, toString());
 // // //  convert array to string
-// // // const dt = fruits.join("/ß");
-// // // console.log(dt);
+const dt = fruits.join("/");
+console.log(dt);
 
 // // // // Array loops ( veyr important )
 
@@ -268,20 +269,20 @@
 // // //   nsole.log(index, item);
 // // // });
 
-// // // const newArg = fruits.map((itm, i) => {
-// // //   console.log(i, itm);
-// // //   return "TM-" + itm.toLocaleUpperCase();
-// // // });
-// // // console.log(fruits, newArg);
+// const newArg = fruits.map((itm, i) => {
+//   console.log(itm, i);
+//   return "TM-" + itm.toLocaleUpperCase();
+// });
+// console.log(fruits, newArg);
 
-// // // const newArg = fruits.filter((itm) => {
-// // //   //return true, it will push itm to newArg , return false ignore the push
-// // //   //   if (itm.includes("p")) {
-// // //   //     return true;
+// const newArg = fruits.filter((itm) => {
+//   //return true, it will push itm to newArg , return false ignore the push
+//   //   if (itm.includes("p")) {
+//   //     return true;
 
-// // //   return itm.includes("p");
-// // // });
-// // // console.log(fruits, newArg);
+//   return itm.includes("p");
+// });
+// console.log(fruits, newArg);
 
 // // // const val = "kiran ";
 
@@ -292,9 +293,11 @@
 
 // // // find method
 
-// // // const newArg = fruits.find((itm) => itm.includes("p"));
-// // // //   return true, it will push itm to newArg , return false ignore the push
-// // // console.log(newArg);
+// const newArg = fruits.find((itm) => itm.includes(("p"));
+// return
+//   true, //it will push itm to newArg , return false ignore the push
+//   console.log(newArg)
+// ;
 
 // // // const banks = [23, 2342, 2, 24355, 56898];
 
@@ -314,48 +317,48 @@
 
 // // //.5 Remove the duplicate number from the original array
 
-// // //good lucklet randomNumbers = [];
+//good lucklet randomNumbers = [];
 
-// // // Creating an array of 50 random number range between 1 and 100
-// // let odd = [];
-// // let even = [];
-// // const randomNumbers = [];
-// // for (let i = 0; i < 50; i++) {
-// //   randomNumbers.push(Math.floor(Math.random() * 100) + 1);
-// // }
-// // console.log("THIS IS RANDOM NUMBER", randomNumbers);
+// Creating an array of 50 random number range between 1 and 100
+let odd = [];
+let even = [];
+const randomNumbers = [];
+for (let i = 0; i < 50; i++) {
+  randomNumbers.push(Math.floor(Math.random() * 100) + 1);
+}
+console.log("THIS IS RANDOM NUMBER", randomNumbers);
 
-// // //Sorting the array in descending orders
+//Sorting the array in descending orders
 
-// // const val = randomNumbers.sort(function (a, b) {
-// //   return b - a;
-// // });
-// // console.log("THIS IS IN DECENDING ORDER", val);
+const val = randomNumbers.sort(function (a, b) {
+  return b - a;
+});
+console.log("THIS IS IN DECENDING ORDER", val);
 
-// // //get the total value of the array
+//get the total value of the array
 
-// // const totalValue = randomNumbers.reduce((subTtl, item) => {
-// //   return subTtl + item;
-// // });
-// // console.log("THOTAL VALUE", totalValue);
+const totalValue = randomNumbers.reduce((subTtl, item) => {
+  return subTtl + item;
+});
+console.log("THOTAL VALUE", totalValue);
 
-// // //Divide the array in two arrays that contains only even number or odd number
-// // function oddNumber() {
-// //   for (let i = 0; i < randomNumbers.length; i++) {
-// //     if (randomNumbers[i] % 2 == 0) {
-// //       even.push(randomNumbers[i]);
-// //     } else {
-// //       odd.push(randomNumbers[i]);
-// //     }
-// //   }
-// // }
+//Divide the array in two arrays that contains only even number or odd number
+function oddNumber() {
+  for (let i = 0; i < randomNumbers.length; i++) {
+    if (randomNumbers[i] % 2 == 0) {
+      even.push(randomNumbers[i]);
+    } else {
+      odd.push(randomNumbers[i]);
+    }
+  }
+}
 
-// // oddNumber();
-// // console.log("thiis is odd number", odd);
-// // console.log(" Hey kiran  this is even number ", even);
+oddNumber();
+console.log("thiis is odd number", odd);
+console.log(" Hey kiran  this is even number ", even);
 
-// // // const uniqueArg =[]
-// // // randomNumbers.forEach(())
+// const uniqueArg =[]
+// randomNumbers.forEach(())
 
 // // // challange 2
 // // //1 create unique arrary of 50 number range betweeen 1 to 100 programmatically
@@ -368,23 +371,23 @@
 
 // // =======Object Oriented Programming
 
-// const person = {
-//   name: "sam",
-//   age: 22,
-//   add: "sydney",
-//   gender: "male",
-// };
-// // const p2 = { ...person };
-// // person.name = "kiran";
+const person = {
+  name: "sam",
+  age: 22,
+  add: "sydney",
+  gender: "male",
+};
+// const p2 = { ...person };
+// person.name = "kiran";
 // person.add = "sydney";
-// // delete person.age;
+// delete person.age;
 
-// // const val = person["name"];
-// // console.log(val);
-// // Destructuring
+// const val = person["name"];
+// console.log(val);
+// Destructuring
 
-// const { name, ...rest } = person; // destructuring
-// console.log(name, rest);
+const { name, age, ...rest } = person; // destructuring
+console.log(name, rest);
 
 // console.log(person);
 // //Arrow function
@@ -421,14 +424,88 @@
 
 // // JS _ES6
 
-const obj1 = {
-  fname: "Sam",
-  add: "syd",
-};
+// Rest Function
 
-const obj2 = {
-  fName: "Kiran",
-  add: "nepal",
-};
-const combo = { ...obj1, ...obj2 };
-console.log(combo);
+// // const obj1 = {
+// //   fname: "Sam",
+// //   add: "syd",
+// // };
+
+// // const obj2 = {
+// //   fName: "Kiran",
+// //   add: "nepal",
+// // };
+// // const combo = { ...obj1, ...obj2 };
+// console.log(combo);
+
+///Date Object
+
+// formate
+// get methods
+// set method
+
+// const date = Date();
+
+// const date = Date.now();
+
+// const date = new Date("2020-2-22");
+// // const val = date.getMinutes();
+// // const val = date.getFullYear();
+// // // const val = date.toDateString();
+// // const val = date.toLocaleDateString();
+// const val = date.toLocaleTimeString();
+
+// date.setDate(date.getDate() + 5);
+// console.log(date);
+
+//create a function that takes full name and expire date and returns like -- if expire
+//-- if expired: zyx is expired
+//=== else zyx is not expired . you have 10 days to add to use this product.
+// const product = { name: "milk", expire: "2023-08-19" };
+// const date = Date.now();
+
+// function expireDate(date, expire) {
+//   if (date >= expire) {
+//     console.log("The iteam is expire ");
+//   } else {
+//     console.log("you still have time left to eat");
+//   }
+// }
+// expireDate();
+
+// const today =Date.now // time now
+/// task:
+//1 Create an object of a product wiht name and expire date
+
+//2. write function to do the  challenage 1 solution and return the string
+// console.log("1.log");
+// setTimeout(() => {
+//   console.log("2. inside frist set timeout");
+// }, 500);
+
+// console.log("3. after setTime out");
+
+// const sayHey = () => {
+//   console.log("4. inside sayhey");
+// };
+
+// setTimeout(() => {
+//   console.log("5. inside frist set timeout");
+// }, 0);
+
+// sayHey();
+
+// console.log("6. last clg");
+
+// function addTwoNumbers(a, b) {
+
+//   console.log(a + b);
+// }
+
+// const addTwoNumbers = (a, b) => {
+//   console.log(a + b);
+// };
+
+// addTwoNumbers(40, 50);
+
+// const ate = Date.now();
