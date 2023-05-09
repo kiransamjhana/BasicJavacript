@@ -328,6 +328,16 @@ for (let i = 0; i < 50; i++) {
 }
 console.log("THIS IS RANDOM NUMBER", randomNumbers);
 
+let uniqueNumber = [];
+let i = 0;
+while (((Array.length = 50), i++)) {
+  if (randomNumbers[index] === true) {
+    uniqueNumber.push(randomNumbers[i]);
+  }
+}
+
+console.log(uniqueNumber);
+
 //Sorting the array in descending orders
 
 const val = randomNumbers.sort(function (a, b) {
