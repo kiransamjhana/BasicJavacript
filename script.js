@@ -328,15 +328,24 @@ for (let i = 0; i < 50; i++) {
 }
 console.log("THIS IS RANDOM NUMBER", randomNumbers);
 
-let uniqueNumber = [];
+const uniqueArg = [];
 let i = 0;
-while (((Array.length = 50), i++)) {
-  if (randomNumbers[index] === true) {
-    uniqueNumber.push(randomNumbers[i]);
+while ((uniqueArg.length <= 50, i++)) {
+  if (!randomNumbers.includes(uniqueArg)) {
+    randomNumbers.push(uniqueArg);
   }
 }
+console.log(uniqueArg);
 
-console.log(uniqueNumber);
+// let uniqueNumber = [];
+// let i = 0;
+// while (((Array.length = 50), i++)) {
+//   if (randomNumbers[index] === true) {
+//     uniqueNumber.push(randomNumbers[i]);
+//   }
+// }
+
+// console.log(uniqueNumber);
 
 //Sorting the array in descending orders
 
@@ -373,11 +382,16 @@ console.log(" Hey kiran  this is even number ", even);
 // // // challange 2
 // // //1 create unique arrary of 50 number range betweeen 1 to 100 programmatically
 
-// // let uniqueArg=[]
+// const uniqueArg = [];
+// arg.forEach((num, i) => {
+//   //   if (!uniqueArg.includes(num)) {
+//   //   uniqueArg.push(num);
+//   //   }
 
-// // while (uniqueArg.length <=50){
-// //     const num =
-// // }
+//   if (i === arg.indexOf(num)) {
+//     uniqueArg.push(num);
+//   }
+// });
 
 // // =======Object Oriented Programming
 
