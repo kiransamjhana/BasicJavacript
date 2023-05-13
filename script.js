@@ -502,24 +502,25 @@ console.log(name, rest);
 //1 Create an object of a product wiht name and expire date
 
 //2. write function to do the  challenage 1 solution and return the string
-// console.log("1.log");
-// setTimeout(() => {
-//   console.log("2. inside frist set timeout");
-// }, 500);
+console.log("1.log");
+setTimeout(() => {
+  console.log("2. inside frist set timeout");
+}, 500);
 
-// console.log("3. after setTime out");
+console.log("3. after setTime out");
 
-// const sayHey = () => {
-//   console.log("4. inside sayhey");
-// };
+const sayHey = () => {
+  console.log("4. inside sayhey");
+};
 
-// setTimeout(() => {
-//   console.log("5. inside frist set timeout");
-// }, 0);
+setTimeout(() => {
+  console.log("5. inside frist set timeout");
+}, 0);
 
-// sayHey();
+sayHey();
+git;
 
-// console.log("6. last clg");
+console.log("6. last clg");
 
 // function addTwoNumbers(a, b) {
 
